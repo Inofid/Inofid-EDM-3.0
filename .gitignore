@@ -67,3 +67,8 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Исключения для Autodesk Inventor (скрываем старые версии деталей)
+**/OldVersions/
+*.log
+*.lck

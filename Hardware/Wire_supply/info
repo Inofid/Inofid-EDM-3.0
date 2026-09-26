@@ -1,0 +1,396 @@
+{
+  "uuid": "926cb494589d846b594034977b757f54",
+  "path": "Offline/Wire_supply",
+  "name": "Wire_supply",
+  "content": "",
+  "created_at": "2026-05-14 23:47:02",
+  "updated_at": "2026-05-19 17:37:25",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "9972bf549c15cbb1b1b2a7c8c1cbb703",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b7adf400643b4936be8b786704d0e70f": 1,
+        "7189733a91a646dd91ce15673165bbbe": 1,
+        "7eaae34b4f05443d9da4819bc03db3a5": 3,
+        "1c1386fde4944c8ca234ac7c6d98a89a": 3,
+        "cb3998efaefb4636b73fb25d214a1645": 1,
+        "a9b82b518e43412aa2e026c5c9c37ac7": 2,
+        "a0a7f781cc734b88b55f387299e1a506": 2,
+        "319c1407b76842b5a16ed610bcfbb4bc": 3,
+        "9807ff2357da49e3a91dc232185034ce": 3
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "470uF",
+          3,
+          "CAP-TH_BD6.3-P2.50-D0.5-FD",
+          "C1,C2,C3",
+          {
+            "Manufacturer Part": "GR1C471M0611",
+            "Manufacturer": "ROQANG(容强)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2873966"
+          }
+        ],
+        [
+          "0.33uF",
+          1,
+          "C0805",
+          "C7",
+          {
+            "Manufacturer Part": "CL21A225KAFNNNE",
+            "Manufacturer": "SAMSUNG(三星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C87994"
+          }
+        ],
+        [
+          "0.1uF",
+          1,
+          "C0805",
+          "C8",
+          {
+            "Manufacturer Part": "CL21A225KAFNNNE",
+            "Manufacturer": "SAMSUNG(三星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C87994"
+          }
+        ],
+        [
+          "AS5600_Left",
+          1,
+          "CONN-TH_3P-P2.54_2501S-3P",
+          "CN1",
+          {
+            "Manufacturer Part": "ZX-XH2.54-3PZZ",
+            "Manufacturer": "Megastar(兆星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7429633"
+          }
+        ],
+        [
+          "AS5600_Right",
+          1,
+          "CONN-TH_3P-P2.54_2501S-3P",
+          "CN2",
+          {
+            "Manufacturer Part": "ZX-XH2.54-3PZZ",
+            "Manufacturer": "Megastar(兆星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7429633"
+          }
+        ],
+        [
+          "DC-005I-5A-2.5",
+          1,
+          "DC-IN-TH_DC-005I-5A-2.5",
+          "DC1",
+          {
+            "Manufacturer Part": "DC-005I-5A-2.5",
+            "Manufacturer": "XKB Connection(中国星坤)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2689704"
+          }
+        ],
+        [
+          "2.54-6P",
+          3,
+          "HDR-TH_6P-P2.54-V-M-R2-C3-S2.54",
+          "H4,H5,H6",
+          {
+            "Manufacturer Part": "PZ254V-12-6P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492420"
+          }
+        ],
+        [
+          "Stepper_1",
+          1,
+          "AT2100",
+          "U1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "Stepper_2",
+          1,
+          "AT2100",
+          "U2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U3",
+          {
+            "Manufacturer Part": "ARDUINO_NANO",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879"
+          }
+        ],
+        [
+          "Sub_stepper_2",
+          1,
+          "AT2100",
+          "U4",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "Right_stepper",
+          1,
+          "HDR-TH_4P-P2.54-V-M",
+          "U5",
+          {
+            "Manufacturer Part": "XDZ254-1-04-Z-2.5-G1",
+            "Manufacturer": "XUNDA(讯答)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C18905845"
+          }
+        ],
+        [
+          "Left_Stepper",
+          1,
+          "HDR-TH_4P-P2.54-V-M",
+          "U6",
+          {
+            "Manufacturer Part": "XDZ254-1-04-Z-2.5-G1",
+            "Manufacturer": "XUNDA(讯答)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C18905845"
+          }
+        ],
+        [
+          "Sub_Stepper",
+          1,
+          "HDR-TH_4P-P2.54-V-M",
+          "U7",
+          {
+            "Manufacturer Part": "XDZ254-1-04-Z-2.5-G1",
+            "Manufacturer": "XUNDA(讯答)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C18905845"
+          }
+        ],
+        [
+          "L7805",
+          1,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "U8",
+          {
+            "Manufacturer Part": "L7805",
+            "Manufacturer": "OSEN(欧芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C22378639"
+          }
+        ]
+      ],
+      "updateTime": 1779106920,
+      "createTime": 1778791622,
+      "histories": [],
+      "created_at": "2026-05-14 23:47:02",
+      "updated_at": "2026-05-18 15:22:00"
+    },
+    {
+      "uuid": "4883e2ba15a3738498815da855864081",
+      "puuid": "926cb494589d846b594034977b757f54",
+      "title": "PCB_Wire_supply",
+      "filename": "PCB_Wire_supply.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "2ee8eb13a0124a108e622ce40c0c25a8": 2,
+        "1880ff3014de4786a3535622d62b202e": 1,
+        "c34375365f6a4573ab2e878302e38be4": 3,
+        "ff6e2030776d4574a7594ce501bb86c5": 1,
+        "948e610cffd14df79f04c73832b1409b": 1,
+        "64a7f92837bb4510988b60872b0cfbf5": 3,
+        "5034cc45f37345f69e0f5323801c5716": 3,
+        "6f03059a573f4700805bb9a6dfa3c822": 2,
+        "89f5280378144b629de4998ef974b6b8": 3
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "AS5600_2",
+          1,
+          "CONN-TH_3P-P2.54_2501S-3P",
+          "CN1",
+          {
+            "Manufacturer Part": "ZX-XH2.54-3PZZ",
+            "Manufacturer": "Megastar(兆星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7429633"
+          }
+        ],
+        [
+          "AS5600_1",
+          1,
+          "CONN-TH_3P-P2.54_2501S-3P",
+          "CN5",
+          {
+            "Manufacturer Part": "ZX-XH2.54-3PZZ",
+            "Manufacturer": "Megastar(兆星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7429633"
+          }
+        ],
+        [
+          "DC-005I-5A-2.5",
+          1,
+          "DC-IN-TH_DC-005I-5A-2.5",
+          "DC1",
+          {
+            "Manufacturer Part": "DC-005I-5A-2.5",
+            "Manufacturer": "XKB Connection(中国星坤)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2689704"
+          }
+        ],
+        [
+          "A2541WV-2P",
+          3,
+          "HDR-TH_P2.54-H-M_A2541WV-2P",
+          "H1,H2,H3",
+          {
+            "Manufacturer Part": "A2541WV-2P",
+            "Manufacturer": "CJT(长江连接器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C225477"
+          }
+        ],
+        [
+          "10kΩ",
+          3,
+          "R0603",
+          "R1,R2,R3",
+          {
+            "Manufacturer Part": "RMC06031001%N",
+            "Manufacturer": "Tyohm(幸亚电阻)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C269700"
+          }
+        ],
+        [
+          "Stepper_1",
+          1,
+          "AT2100",
+          "U1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "Stepper_2",
+          1,
+          "AT2100",
+          "U2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "Sub_stepper_2",
+          1,
+          "AT2100",
+          "U4",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U3",
+          {
+            "Manufacturer Part": "ARDUINO_NANO",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879"
+          }
+        ],
+        [
+          "Driver_1",
+          3,
+          "HDR-TH_4P-P2.54-V-M",
+          "U5,U6,U7",
+          {
+            "Manufacturer Part": "XDZ254-1-04-Z-2.5-G1",
+            "Manufacturer": "XUNDA(讯答)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C18905845"
+          }
+        ],
+        [
+          "L7805",
+          1,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "U8",
+          {
+            "Manufacturer Part": "L7805",
+            "Manufacturer": "OSEN(欧芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C22378639"
+          }
+        ]
+      ],
+      "updateTime": 1779201445,
+      "createTime": 1778794653,
+      "histories": [],
+      "created_at": "2026-05-15 00:37:33",
+      "updated_at": "2026-05-19 17:37:25"
+    }
+  ],
+  "sort": [],
+  "title": "Wire_supply",
+  "foldername": "Wire_supply",
+  "schfilename": "Wire_supply.json",
+  "schfilemtime": 1779106921022
+}
